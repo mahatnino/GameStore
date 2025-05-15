@@ -1,0 +1,61 @@
+# Build Folders
+bin/
+obj/
+
+# User-Specific Files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# Visual Studio Code
+.vscode/
+
+# Dependency Directories
+packages/
+.vs/
+
+# Temporary Files
+*.tmp
+*.temp
+*.cache
+*.pdb
+*.mdb
+
+# Configuration Files
+appsettings*.json
+secrets.json
+
+# OS-Specific Files
+.DS_Store
+Thumbs.db
+
+# NuGet Packages
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+
+# Rider IDE
+.idea/
+*.sln.iml
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Generated Files
+*.generated.cs
+*.g.cs
+*.g.i.cs
+
+# Coverage and Test Results
+TestResults/
+*.coverage
+*.coveragexml
+*.trx
+
+# Publish Output
+wwwroot/
