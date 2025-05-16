@@ -11,6 +11,6 @@ jobs:
             - name: Build and push the image
               run: |
                 docker login --username mahatnino --password ${{ secrets.GH_PAT }} ghcr.io
-                docker build -t ghcr.io/mahatnino/ghcr:latest .
-                docker push ghcr.io/mahatnino/ghcr:latest
+                docker build -t ghcr.io/mahatnino/gamestoreapi-ghcr:latest .
+                docker push ghcr.io/mahatnino/gamestoreapi-ghcr:latest
 
